@@ -3,35 +3,35 @@ public class Rational {
 	private int denominator;
 	
 	/**
-	 * The setLength method stores a value in
-	 * the length field
-	 * @param len The value to store in length
+	 * The setNumerator method stores a value in
+	 * the numerator field
+	 * @param num The value to store in numerator
 	 */
-	public void setLength(int num){
+	public void setNumerator(int num){
 		numerator = num;
 	}
 	
 	/**
-	 * The setWidth method stores a value in
-	 * the length field
-	 * @param wid The value to store in width
+	 * The setDenominator method stores a value in
+	 * the denominator field
+	 * @param den The value to store in denominator
 	 */
 	public void setWidth(int den){
 		denominator = den;
 	}
 	
 	/**
-	 * The getLength method returns the
-	 * length of the Rectangle object
-	 * @return The length of the object
+	 * The getNumerator method returns the
+	 * numerator of the Rational object
+	 * @return The numerator of the object
 	 */
 	public int getNumerator(){
 		return numerator;
 	}
 	
 	/**
-	 * The getWidth method returns the
-	 * width of the Rectangle object
+	 * The getDenominator method returns the
+	 * width of the  object
 	 * @return The width of the object
 	 */
 	public int getDenominator(){
