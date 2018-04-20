@@ -16,7 +16,7 @@ public class Rational {
 	 * the denominator field
 	 * @param den The value to store in denominator
 	 */
-	public void setWidth(int den){
+	public void setDenominator(int den){
 		denominator = den;
 	}
 	
@@ -31,17 +31,17 @@ public class Rational {
 	
 	/**
 	 * The getDenominator method returns the
-	 * width of the  object
-	 * @return The width of the object
+	 * denominator of the Rational object
+	 * @return The denominator of the object
 	 */
 	public int getDenominator(){
 		return denominator;
 	}
 	
 	/**
-	 * The getArea method returns the
-	 * area of the Rectangle object
-	 * @return The calculated area of the Rectangle
+	 * The getDecimal method returns the
+	 * decimal value of the Rational object
+	 * @return The calculated decimal of the Rational number
 	 */
 	public double getArea(){
 		return( ((double)(numerator) / (double)(denominator)) );
