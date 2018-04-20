@@ -1,15 +1,14 @@
 public class Rational {
-	private double length;
-	private double width;
+	private int numerator;
+	private int denominator;
 	
 	/**
 	 * The setLength method stores a value in
 	 * the length field
 	 * @param len The value to store in length
 	 */
-	public void setLength(double len){
-		length = len;
-		
+	public void setLength(int num){
+		numerator = num;
 	}
 	
 	/**
@@ -17,8 +16,8 @@ public class Rational {
 	 * the length field
 	 * @param wid The value to store in width
 	 */
-	public void setWidth(double wid){
-		width = wid;
+	public void setWidth(int den){
+		denominator = den;
 	}
 	
 	/**
@@ -26,8 +25,8 @@ public class Rational {
 	 * length of the Rectangle object
 	 * @return The length of the object
 	 */
-	public double getLength(){
-		return length;
+	public int getNumerator(){
+		return numerator;
 	}
 	
 	/**
@@ -35,8 +34,8 @@ public class Rational {
 	 * width of the Rectangle object
 	 * @return The width of the object
 	 */
-	public double getWidth(){
-		return width;
+	public int getDenominator(){
+		return denominator;
 	}
 	
 	/**
@@ -45,7 +44,7 @@ public class Rational {
 	 * @return The calculated area of the Rectangle
 	 */
 	public double getArea(){
-		return( length * width );
+		return( ((double)(numerator) / (double)(denominator)) );
 	}
 	
 }
