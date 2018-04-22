@@ -1,3 +1,9 @@
+/**
+ * The purpose of this class is to implement a way to work with rational
+ * numbers using a custom made class.
+ * @author Jonathan Meredith
+ * 
+ */
 public class Rational {
 	private int numerator;
 	private int denominator;
@@ -43,8 +49,7 @@ public class Rational {
 	 * decimal value of the Rational object
 	 * @return The calculated decimal of the Rational number
 	 */
-	public double getArea(){
+	public double getDecimal(){
 		return( ((double)(numerator) / (double)(denominator)) );
-	}
-	
+	}	
 }
